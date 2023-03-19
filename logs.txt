@@ -1,0 +1,5 @@
+INFO:Sun Mar 19 14:26:21 GMT+04:00 2023:Added new contact  id: 1, name: Альберт, surname: Мольберт phone: +7583892
+INFO:Sun Mar 19 14:26:48 GMT+04:00 2023:Contact:  id: 1, name: Альберт, surname: Мольберт phone: +7583892 was changed to: id: 1, name: Иван, surname: Иванов phone: +1111111
+INFO:Sun Mar 19 14:27:07 GMT+04:00 2023:Added new contact  id: 2, name: Альберт, surname: Мольберт phone: +3830292
+INFO:Sun Mar 19 14:27:11 GMT+04:00 2023:Requested information about all contacts
+INFO:Sun Mar 19 14:27:18 GMT+04:00 2023:Request for User information: id:1, name:Иван, surname: Иванов, phone: +1111111 
