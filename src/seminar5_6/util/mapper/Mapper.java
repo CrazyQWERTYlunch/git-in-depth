@@ -1,4 +1,4 @@
-package util.mapper;
+package seminar5_6.util.mapper;
 
 /**
  * Конвертер моделей из одного типа в другой.

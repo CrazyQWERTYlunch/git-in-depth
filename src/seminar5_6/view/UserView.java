@@ -1,8 +1,8 @@
-package view;
+package seminar5_6.view;
 
-import controller.UserController;
-import model.User;
-import util.Commands;
+import seminar5_6.controller.UserController;
+import seminar5_6.model.User;
+import seminar5_6.util.Commands;
 
 import java.util.List;
 import java.util.Scanner;
@@ -46,10 +46,6 @@ public class UserView {
                     id = getUserId();
                     userController.updateUser(id, createUser());
                     break;
-//                case DELETE:
-//                    id = getUserId();
-//                    userController.deleteUser(id);
-//                    break;
             }
         }
     }

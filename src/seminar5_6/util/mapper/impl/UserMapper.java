@@ -1,9 +1,10 @@
-package util.mapper.impl;
+package seminar5_6.util.mapper.impl;
 
-import model.User;
-import util.mapper.Mapper;
+import seminar5_6.model.User;
+import seminar5_6.util.mapper.Digitable;
+import seminar5_6.util.mapper.Mapper;
 
-public class UserMapper implements Mapper<User, String> {
+public class UserMapper implements Mapper<User, String>, Digitable {
     @Override
     public String toInput(User user) {
         return String.format("%s:%s:%s:%s", user.getId(), user.getFirstName(), user.getLastName(), user.getPhone());
@@ -20,7 +21,8 @@ public class UserMapper implements Mapper<User, String> {
         throw new NumberFormatException("Id must be a large number");
     }
 
-    private boolean isDigit(String s) throws NumberFormatException {
+    @Override
+    public boolean isDigit(String s) throws NumberFormatException {
         try {
             Long.parseLong(s);
             return true;

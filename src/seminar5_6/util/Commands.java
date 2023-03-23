@@ -1,4 +1,4 @@
-package util;
+package seminar5_6.util;
 
 public enum Commands {
     NONE,

@@ -1,4 +1,4 @@
-package logger;
+package seminar5_6.logger;
 
 import java.io.File;
 import java.io.FileWriter;

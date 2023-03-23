@@ -1,15 +1,15 @@
-package model.repository.impl;
+package seminar5_6.model.repository.impl;
 
-import model.User;
-import model.dao.impl.FileOperation;
-import model.repository.GBRepository;
-import util.mapper.impl.UserMapper;
+import seminar5_6.model.User;
+import seminar5_6.model.dao.impl.FileOperation;
+import seminar5_6.model.repository.GBRepository;
+import seminar5_6.util.mapper.impl.UserMapper;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import static logger.Log.writerLog;
+import static seminar5_6.logger.Log.writerLog;
 
 public class UserRepository implements GBRepository<User, Long> {
     private final UserMapper mapper;
@@ -84,22 +84,6 @@ public class UserRepository implements GBRepository<User, Long> {
     public UserMapper getMapper() {
         return mapper;
     }
-//    @Override
-//    public Optional<User> delete(Long userId) {
-//        List<User> users = findAll();
-//        User editUser = users.stream()
-//                .filter(u -> u.getId()
-//                        .equals(userId))
-//                .findFirst().orElseThrow(() -> new RuntimeException("User not found"));
-//        infoLog = String.format("Contact:  id: %s, name: %s, surname: %s phone: %s  has been deleted",editUser.getId()
-//                ,editUser.getFirstName(),editUser.getLastName(),editUser.getPhone());
-//        editUser.setFirstName("");
-//        editUser.setLastName("");
-//        editUser.setPhone("");
-//        write(users);
-//        writerLog(tag,infoLog);
-//        return Optional.of(editUser);
-//    }
 
     @Override
     public Optional<User> delete(Long id) {

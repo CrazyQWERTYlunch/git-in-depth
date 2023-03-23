@@ -1,4 +1,4 @@
-package model.dao;
+package seminar5_6.model.dao;
 
 import java.util.List;
 

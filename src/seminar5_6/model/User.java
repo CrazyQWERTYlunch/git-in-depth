@@ -1,4 +1,4 @@
-package model;
+package seminar5_6.model;
 
 public class User {
     private Long id;

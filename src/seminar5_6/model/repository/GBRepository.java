@@ -1,6 +1,6 @@
-package model.repository;
+package seminar5_6.model.repository;
 
-import model.User;
+import seminar5_6.model.User;
 
 import java.util.List;
 import java.util.Optional;

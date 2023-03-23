@@ -1,6 +1,6 @@
-package model.dao.impl;
+package seminar5_6.model.dao.impl;
 
-import model.dao.Operation;
+import seminar5_6.model.dao.Operation;
 
 import java.io.*;
 import java.util.ArrayList;
