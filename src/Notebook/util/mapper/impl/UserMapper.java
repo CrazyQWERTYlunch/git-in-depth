@@ -20,7 +20,7 @@ public class UserMapper implements Mapper<User, String>{
         throw new NumberFormatException("Id must be a large number");
     }
 
-    public boolean isDigit(String s) throws NumberFormatException {
+    private boolean isDigit(String s) throws NumberFormatException {
         try {
             Long.parseLong(s);
             return true;
